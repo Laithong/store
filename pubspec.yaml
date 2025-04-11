@@ -1,0 +1,29 @@
+name: store
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.0.15
+  intl: ^0.18.1
+  shimmer: ^3.0.0
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  android: true
+  ios: true
+  windows: true  # ถ้าต้องการใช้งานใน Windows ก็สามารถตั้งค่าได้
+  image_path: "assets/images/Lai_IT_Service_Logo.png"  # เส้นทางไฟล์ไอคอนของคุณ
